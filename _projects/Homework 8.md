@@ -49,7 +49,7 @@ Brush Selection (brush): Users can interactively select a region in the scatter 
 
 Dropdown Selection (selection_state): Users can choose a specific "Building Status" from the dropdown menu. The scatter plot dynamically updates to display only the data points associated with the selected building status, allowing for focused exploration.
 
- This interactivity enhances the user's ability to explore and compare buildings of different statuses, providing a more dynamic and tailored visual representation of the data. Users can easily switch between building statuses to observe patterns and variations in the scatter plot.
+This interactivity enhances the user's ability to explore and compare buildings of different statuses, providing a more dynamic and tailored visual representation of the data. Users can easily switch between building statuses to observe patterns and variations in the scatter plot.
 
 ### Overlap with homework 7
 
@@ -86,13 +86,13 @@ No explicit data transformations are performed in the provided code. The bar cha
 
 The provided code does not include explicit interactivity elements such as selections or filters. It's a static representation of the count of buildings for each usage description category.
 
-<div class="left">
-{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="Dataset Used" %}
-</div>
-
 ### Overlap with homework 7
 
 There is no overlap with homework 7 in this visualization
+
+<div class="left">
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="Dataset Used" %}
+</div>
 
 <div class="right">
 {% include elements/button.html link="https://github.com/aasthajain25/aasthajain25.github.io/blob/main/python_notebooks/IS%20445%20-%20Homework%208.ipynb" text="Analysis" %}
