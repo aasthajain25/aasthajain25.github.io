@@ -79,20 +79,91 @@
 <h3 id="dataset--buildings-dataset">Dataset : Buildings dataset</h3>
 
 <h3 id="plot-1">Plot 1</h3>
+<p><a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/aasthajain25/aasthajain25.github.io/blob/main/assets/json/scatter_plot.json">
+  Json Data
+</a></p>
+
 <vegachart schema-url="/assets/json/scatter_plot.json" style="width: 100%"></vegachart>
 
+<h3 id="description-of-what-is-visualized">Description of What is Visualized:</h3>
+
+<p>The scatter plot visualizes data related to buildings. The x-axis represents “Square Footage,” the y-axis represents “Total Floors,” and the color of each point is determined by the “Building Status.” Each point on the plot corresponds to a specific building and provides additional information in the tooltip, including “Agency Name,” “Location Name,” “Square Footage,” and “Total Floors.”</p>
+
+<h3 id="design-choices-and-encoding-types">Design Choices and Encoding Types:</h3>
+
+<p><strong>X-axis</strong> : Quantitative encoding of the “Square Footage” variable on the x-axis, allowing for a continuous representation of the size of the buildings.</p>
+
+<p><strong>Y-axis</strong> : Quantitative encoding of the “Total Floors” variable on the y-axis, representing the number of floors in each building.</p>
+
+<p><strong>Color</strong> : Nominal encoding of the “Building Status” variable to determine the color of each point. Different building statuses are represented by different colors, providing a visual distinction between them.</p>
+
+<p>Tooltip (tooltip encoding): Provides additional information when hovering over a data point. Displays details such as “Agency Name,” “Location Name,” “Square Footage,” and “Total Floors,” enhancing the interpretability of individual data points.</p>
+
+<h3 id="color-scheme">Color Scheme:</h3>
+
+<p>The color scheme is determined by the “Building Status” variable, which is a nominal categorical variable. Different building statuses are represented by distinct colors to aid in visual differentiation. The specific colors assigned to each building status are determined by the default color scheme used by Altair/Vega-Lite for nominal categorical variables.</p>
+
+<h3 id="data-transformations">Data Transformations:</h3>
+
+<p>No explicit data transformations are performed in the provided code. The scatter plot directly visualizes the raw data from the specified URL (URL_buildings), and the interactivity is implemented through selections and filtering rather than data transformations.</p>
+
+<h3 id="interactivity">Interactivity:</h3>
+
+<p>The scatter plot incorporates two interactive elements:</p>
+
+<p>Brush Selection (brush): Users can interactively select a region in the scatter plot by clicking and dragging, creating a rectangular brush. This enables users to focus on specific subsets of data based on the selected x and y range.</p>
+
+<p>Dropdown Selection (selection_state): Users can choose a specific “Building Status” from the dropdown menu. The scatter plot dynamically updates to display only the data points associated with the selected building status, allowing for focused exploration.</p>
+
 <h3 id="plot-2">Plot 2</h3>
+<p><a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/aasthajain25/aasthajain25.github.io/blob/main/assets/json/bar_chart.json">
+  Json Data
+</a></p>
+
 <vegachart schema-url="/assets/json/bar_chart.json" style="width: 100%"></vegachart>
 
+<h3 id="description-of-what-is-visualized-1">Description of What is Visualized:</h3>
+
+<p>The bar chart visualizes the count of building entries grouped by “Usage Description.” Each bar represents the count of buildings falling under different usage descriptions. The x-axis represents the count of buildings, and the y-axis represents the “Usage Description.” Each bar is color-coded based on the corresponding “Usage Description,” and the tooltip displays the count of buildings for each category.</p>
+
+<h3 id="design-choices-and-encoding-types-1">Design Choices and Encoding Types:</h3>
+
+<ol>
+  <li>
+    <p><strong>X-axis</strong>: The x-axis represents the count of buildings, providing a quantitative measure of the number of buildings in each category.</p>
+  </li>
+  <li>
+    <p><strong>Y-axis</strong>: The y-axis represents the “Usage Description,” a nominal categorical variable. The bars are sorted in descending order based on the count, facilitating a clear representation of the distribution of buildings across different usage descriptions.</p>
+  </li>
+  <li>
+    <p><strong>Color</strong>: Nominal encoding of the “Usage Description” variable to determine the color of each bar. Different usage descriptions are represented by distinct colors, aiding visual differentiation.</p>
+  </li>
+  <li>
+    <p><strong>Tooltip</strong>: The tooltip displays the count of buildings for each category, providing additional quantitative information when hovering over a bar.</p>
+  </li>
+</ol>
+
+<h3 id="color-scheme-1">Color Scheme:</h3>
+
+<p>The color scheme is determined by the “Usage Description” variable, a nominal categorical variable. Each usage description category is assigned a unique color, making it easier to distinguish between different categories in the bar chart.</p>
+
+<h3 id="data-transformations-1">Data Transformations:</h3>
+
+<p>No explicit data transformations are performed in the provided code. The bar chart directly visualizes the count of buildings based on the specified URL (<code class="language-plaintext highlighter-rouge">URL_buildings</code>).</p>
+
+<h3 id="interactivity-1">Interactivity:</h3>
+
+<p>The provided code does not include explicit interactivity elements such as selections or filters. It’s a static representation of the count of buildings for each usage description category.</p>
+
 <div class="left">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
-  The Data
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv">
+  Dataset Used
 </a>
 </div>
 
 <div class="right">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb">
-  The Analysis
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/aasthajain25/aasthajain25.github.io/blob/main/python_notebooks/IS%20445%20-%20Homework%208.ipynb">
+  Analysis
 </a>
 </div>
 
