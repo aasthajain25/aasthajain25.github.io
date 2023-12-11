@@ -92,5 +92,5 @@ Similarity Network on 20 random languages
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/utsavm2/Language_Visualization/blob/main/Final_Project/Code/Language_viz_revised.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/aasthajain25/aasthajain25.github.io/blob/main/python_notebooks/Language_viz_revised.ipynb" text="The Analysis" %}
 </div>
