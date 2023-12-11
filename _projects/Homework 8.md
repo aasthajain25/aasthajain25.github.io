@@ -1,5 +1,6 @@
 ---
 name: IS 445 Homework 8
+image: assets/pngs/homework8.png
 tools: [Python, HTML, vega-lite]
 custom_js:
   - vega.min

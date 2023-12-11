@@ -88,7 +88,7 @@ Similarity Network on 20 random languages
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/aasthajain25/aasthajain25.github.io/blob/main/python_notebooks/Language_viz_revised.ipynb" text="The Data" %}
+{% include elements/button.html link="https://github.com/aasthajain25/aasthajain25.github.io/tree/main/assets/Data" text="The Data" %}
 </div>
 
 <div class="right">
