@@ -85,6 +85,12 @@ Similarity Network on 20 random languages
 ![Sino-Tibetan](/assets/pngs/Finals/Networks/Sino-Tibetan_main_network.png)
 ![Sino-Tibetan](/assets/pngs/Finals/Networks/Sino-Tibetan_community_detection.png)
 
+### Data Sources:
+
+1. Languages of the World, [cainesap.shinyapps.io/langmap/](https://cainesap.shinyapps.io/langmap/). Accessed 11 Dec. 2023. 
+2. The ASJP Database -, [asjp.clld.org/help](https://asjp.clld.org/help). Accessed 11 Dec. 2023.
+3. Glottolog 4.8, [glottolog.org/glottolog/language](https://glottolog.org/glottolog/language). Accessed 11 Dec. 2023.
+
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
