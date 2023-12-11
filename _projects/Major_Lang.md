@@ -13,13 +13,18 @@ custom_js:
 
 # Major language family distribution
 ## Created by: Aastha and Utsav
+<br>
 
 A visualization that represents how major world language families are distributed. 
 The interactive chart provides insight on how vulnerable the languages are within a family.
 The networks provide an insight on how simialr the languages are and how they can be subcategorized into communities.
 At the bottom of the page, I have provided the data and the code for further analysis.
 If the code is forked, it can be used for more dynamic interactivity in Jupyter notebook using widgets.
-<br>
+
+We have selected 5 language families (Indo-European, Afro-Asiatic, Atlantic-Congo, Austronesian, and Sino-Tibetan) for our visualizations. For each family group, we have 2 dashboards. The first one contains two interactive visualizations: a bar chart displaying the distribution of languages by their endangerment status within the selected family, and a heatmap illustrating the distribution of languages within sub-families. The bar chart allows users to brush over specific status categories, dynamically updating the heatmap. Additionally, the dashboard includes a geographical plot on a world map, marking the locations of languages from the subset of the dataset for the language family. Each language is color-coded based on its endangerment status. The resulting visualizations provide a comprehensive overview of language distribution, status, and geographic locations within the selected language family.
+
+The second dashboard features two visualizations of a language similarity network. The first plot depicts the network graph, where nodes represent languages and edges signify similarities between them. The size and color of nodes are determined by the cumulative similarity with neighboring languages, and the edge widths indicate the strength of similarity. The color bar on the side represents the range of node colors, corresponding to the sum of similarities. The second plot focuses on community detection within the network, revealing distinct groups of languages with shared similarities. Both visualizations provide insights into the structure and relationships within the language subset, highlighting patterns of similarity and community organization.
+
 <br>
 
 ### Indo-European
@@ -83,7 +88,7 @@ Similarity Network on 20 random languages
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/utsavm2/Language_Visualization/tree/main/Final_Project/Data" text="The Data" %}
+{% include elements/button.html link="https://github.com/aasthajain25/aasthajain25.github.io/blob/main/python_notebooks/Language_viz_revised.ipynb" text="The Data" %}
 </div>
 
 <div class="right">

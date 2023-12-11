@@ -1,0 +1,2273 @@
+{
+  "dropdown_value": "Nuclear Trans New Guinea",
+  "chart": {
+    "config": {
+      "view": {
+        "continuousWidth": 300,
+        "continuousHeight": 300
+      }
+    },
+    "vconcat": [
+      {
+        "mark": {
+          "type": "bar"
+        },
+        "encoding": {
+          "color": {
+            "field": "status",
+            "legend": null,
+            "type": "nominal"
+          },
+          "x": {
+            "field": "status",
+            "sort": [
+              "safe",
+              "vulnerable",
+              "definitely endangered",
+              "severely endangered",
+              "critically endangered",
+              "extinct"
+            ],
+            "title": "Language Status",
+            "type": "nominal"
+          },
+          "y": {
+            "aggregate": "count",
+            "title": "Number of Languages",
+            "type": "quantitative"
+          }
+        },
+        "name": "view_29",
+        "title": "Distribution of Languages by Status",
+        "width": 600
+      },
+      {
+        "mark": {
+          "type": "rect"
+        },
+        "encoding": {
+          "color": {
+            "aggregate": "count",
+            "scale": {
+              "scheme": "viridis"
+            },
+            "title": "Number of Languages",
+            "type": "quantitative"
+          },
+          "x": {
+            "field": "family2",
+            "title": "Sub-Family",
+            "type": "nominal"
+          },
+          "y": {
+            "aggregate": "count",
+            "title": "Number of Languages",
+            "type": "quantitative"
+          }
+        },
+        "title": "Distribution of Languages by Status (Heatmap)",
+        "transform": [
+          {
+            "filter": {
+              "param": "param_33"
+            }
+          }
+        ],
+        "width": 600
+      }
+    ],
+    "data": {
+      "name": "data-43687a45fd48ddfaf1b323c0ceef1677"
+    },
+    "params": [
+      {
+        "name": "param_33",
+        "select": {
+          "type": "interval",
+          "encodings": [
+            "x",
+            "y"
+          ]
+        },
+        "views": [
+          "view_29"
+        ]
+      }
+    ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json",
+    "datasets": {
+      "data-43687a45fd48ddfaf1b323c0ceef1677": [
+        {
+          "name": "Zia",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Greater Binanderean",
+          "family3": "Binanderean"
+        },
+        {
+          "name": "Tokano",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Borong",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "North Muyu",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "South Muyu",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Ketum",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Kuman",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Simbu"
+        },
+        {
+          "name": "Kumukio",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Tsaukambo",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Kwer",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Kyaka",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Engan"
+        },
+        {
+          "name": "Keyagana",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Kambaira",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Kainantu"
+        },
+        {
+          "name": "Komyandaret",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Lemio",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Lembena",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Engan"
+        },
+        {
+          "name": "Maring",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Jimi"
+        },
+        {
+          "name": "Mese",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Mawan",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Male (Papua New Guinea)",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Melpa",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Hagen"
+        },
+        {
+          "name": "Mamaa",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Mauwake",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Mawak",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Ma (Papua New Guinea)",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Malas",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Mape",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Bargam",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Musar",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Aisi",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Moni",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Paniai Lakes",
+          "family3": "-"
+        },
+        {
+          "name": "Migabac",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Mian",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Mungkip",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Matepi",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Mosimo",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Murupi",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Moresada",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Momare",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Munit",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Una",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Mek",
+          "family3": "Eastern Mek"
+        },
+        {
+          "name": "Mandobo Bawah",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Chuave",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Simbu"
+        },
+        {
+          "name": "Central Asmat",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Asmat-Kamoro"
+        },
+        {
+          "name": "Gwahatike",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Dao",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Paniai Lakes",
+          "family3": "Auye-Dao"
+        },
+        {
+          "name": "Dedua",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Domung",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Degenan",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Doghoro",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Greater Binanderean",
+          "family3": "Binanderean"
+        },
+        {
+          "name": "Diuwe",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Asmat-Kamoro"
+        },
+        {
+          "name": "Dimir",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Upper Grand Valley Dani",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Dani",
+          "family3": "Central Dani"
+        },
+        {
+          "name": "Lower Grand Valley Dani",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Dani",
+          "family3": "Central Dani"
+        },
+        {
+          "name": "Danaru",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Mid Grand Valley Dani",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Dani",
+          "family3": "Central Dani"
+        },
+        {
+          "name": "Western Dani",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Dani",
+          "family3": "Central Dani"
+        },
+        {
+          "name": "Dom",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Simbu"
+        },
+        {
+          "name": "Dumun",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Duduela",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Eipomek",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Mek",
+          "family3": "Eastern Mek"
+        },
+        {
+          "name": "Ekari",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Paniai Lakes",
+          "family3": "-"
+        },
+        {
+          "name": "Apali",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Enga",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Engan"
+        },
+        {
+          "name": "Ogea",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Wagi (Papua New Guinea)",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Finongan",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Faiwol",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Kulsab",
+          "status": "critically endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Fore",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Forak",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Gende",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Alekano",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Gadsup",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Kainantu"
+        },
+        {
+          "name": "Kandawo",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Jimi"
+        },
+        {
+          "name": "Gants",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Gal",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Kenati",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Unclassified Kainantu-Goroka"
+        },
+        {
+          "name": "Nobonob",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Gaina",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Greater Binanderean",
+          "family3": "Binanderean"
+        },
+        {
+          "name": "Ganglau",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Guhu-Samane",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Greater Binanderean",
+          "family3": "-"
+        },
+        {
+          "name": "Gimi (Eastern Highlands)",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Guya",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Pulabu",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Rerau",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Rempi",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Rapting",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Rawa",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Sawi",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Sirva",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Sene",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Sumau",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Ma Manda",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Sakam",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Maia",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Salt-Yui",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Simbu"
+        },
+        {
+          "name": "Sialum",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Som",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Siane",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Sihan",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Sam",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Sinsauru",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Saep",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Selepet",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Saruga",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Siroi",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Sausi",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Sinasina",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Simbu"
+        },
+        {
+          "name": "Samberigi",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Kewa-Huli"
+        },
+        {
+          "name": "Setaman",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Suena",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Greater Binanderean",
+          "family3": "Binanderean"
+        },
+        {
+          "name": "Suganga",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Samosa",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Ngalum",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Tai",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "North Tairora",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Kainantu"
+        },
+        {
+          "name": "Tobo",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Tifal",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Timbe",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Tangko",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Telefol",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Tamnim Citak",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Asmat-Kamoro"
+        },
+        {
+          "name": "Maiani",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Mandobo Atas",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Abaga",
+          "status": "critically endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Pal",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Amele",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Aeka",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Greater Binanderean",
+          "family3": "Binanderean"
+        },
+        {
+          "name": "Agarabi",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Kainantu"
+        },
+        {
+          "name": "Angal",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Kewa-Huli"
+        },
+        {
+          "name": "Aghu",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Burumakok",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Angal Heneng",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Kewa-Huli"
+        },
+        {
+          "name": "Amaimon",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Nend",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Angal Enen",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Kewa-Huli"
+        },
+        {
+          "name": "Casuarina Coast Asmat",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Asmat-Kamoro"
+        },
+        {
+          "name": "Asas",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Buruwai",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Asmat-Kamoro"
+        },
+        {
+          "name": "Dano",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Muratayak",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Yaosakor Asmat",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Asmat-Kamoro"
+        },
+        {
+          "name": "Mand",
+          "status": "critically endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Auye",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Paniai Lakes",
+          "family3": "Auye-Dao"
+        },
+        {
+          "name": "Awiyaana",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Kainantu"
+        },
+        {
+          "name": "Awa (Papua New Guinea)",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Kainantu"
+        },
+        {
+          "name": "Arawum",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "South Awyu",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Central Awyu",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Kia River Awyu",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Awara",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Edera Awyu",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Bau",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Girawa",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Benabena",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Binandere",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Greater Binanderean",
+          "family3": "Binanderean"
+        },
+        {
+          "name": "Bimin",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Bepour",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Bisorio",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Engan"
+        },
+        {
+          "name": "Binumarien",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Kainantu"
+        },
+        {
+          "name": "Baruga",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Greater Binanderean",
+          "family3": "Binanderean"
+        },
+        {
+          "name": "Kein",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Bulgebi",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Burum-Mindik",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Baimak",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Anjam",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Bonkiman",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Bagupi",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Biyom",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Bongu",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Bilakura",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Brem",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Asaro'o",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Bo-Ung",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Hagen"
+        },
+        {
+          "name": "Moere",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Narak",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Jimi"
+        },
+        {
+          "name": "Nabak",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Nake",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Nggem",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Dani",
+          "family3": "-"
+        },
+        {
+          "name": "Iyo",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Nduga",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Dani",
+          "family3": "Ngalik-Nduga"
+        },
+        {
+          "name": "Neko",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Nete",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Engan"
+        },
+        {
+          "name": "Nakama",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Nek",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Nii",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Wahgic"
+        },
+        {
+          "name": "Nimi",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Nekgini",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Nakai",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Momogo-Pupis-Irogo",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Asmat-Kamoro"
+        },
+        {
+          "name": "Nalca",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Mek",
+          "family3": "Western Mek"
+        },
+        {
+          "name": "Ninia Yali",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Dani",
+          "family3": "Ngalik-Nduga"
+        },
+        {
+          "name": "Ngaing",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Nankina",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Nuk",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Nomane",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Simbu"
+        },
+        {
+          "name": "Nomu",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Numanggang",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Ewage-Notu",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Greater Binanderean",
+          "family3": "Binanderean"
+        },
+        {
+          "name": "Nipsan",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Mek",
+          "family3": "Western Mek"
+        },
+        {
+          "name": "Ninggerum",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Orokaiva",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Greater Binanderean",
+          "family3": "Binanderean"
+        },
+        {
+          "name": "Utarmbung",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "South Tairora",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Kainantu"
+        },
+        {
+          "name": "Ono",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Kopkaka",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Oksapmin",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Anam",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Mala (Papua New Guinea)",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Miani",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Manat",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Panim",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Parawen",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Asue Awyu",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Gumalu",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Madi (Papua New Guinea)",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Gusan",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Wasembo",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Golin",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Simbu"
+        },
+        {
+          "name": "Garus",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Hupla",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Dani",
+          "family3": "Central Dani"
+        },
+        {
+          "name": "Pamosu",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Hunjara-Kaina Ke",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Greater Binanderean",
+          "family3": "Binanderean"
+        },
+        {
+          "name": "Huli",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Kewa-Huli"
+        },
+        {
+          "name": "Isebe",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Anamuxra",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Imbongu",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Hagen"
+        },
+        {
+          "name": "Inoke-Yate",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Tuma-Irumu",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Ipili",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Engan"
+        },
+        {
+          "name": "Kamberau",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Asmat-Kamoro"
+        },
+        {
+          "name": "Isabi",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Morop-Dintere",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Jilim",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Kamano",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Kinalakna",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "West Kewa",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Kewa-Huli"
+        },
+        {
+          "name": "Kulungtfu-Yuanggeng-Tobo",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Kamoro",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Asmat-Kamoro"
+        },
+        {
+          "name": "Kobol",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Korowai",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "East Kewa",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Kewa-Huli"
+        },
+        {
+          "name": "Erave",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Enga-Kewa-Huli",
+          "family3": "Kewa-Huli"
+        },
+        {
+          "name": "Kosarek Yale",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Mek",
+          "family3": "Western Mek"
+        },
+        {
+          "name": "Weliki",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Kolom",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Nukna",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Kare (Papua New Guinea)",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "K\u00e2te",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Kalam",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Kanite",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Kwato",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Korak",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Unclassified Madang"
+        },
+        {
+          "name": "Komba",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Korupun-Sela",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Mek",
+          "family3": "Western Mek"
+        },
+        {
+          "name": "Korafe-Yegha",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Greater Binanderean",
+          "family3": "Binanderean"
+        },
+        {
+          "name": "Kobon",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Mum",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Kovai",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Huon"
+        },
+        {
+          "name": "Citak",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Asmat-Kamoro"
+        },
+        {
+          "name": "Tauya",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Kombai",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Umbu-Ungu",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Hagen"
+        },
+        {
+          "name": "Ufim",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Ukuriguma",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Urigina",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Urapmin",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Sop",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Usarufa",
+          "status": "vulnerable",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Kainantu"
+        },
+        {
+          "name": "Uya",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Utu",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Uri",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Waffa",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Kainantu"
+        },
+        {
+          "name": "Wadaginam",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Kalamic-South Adelbert"
+        },
+        {
+          "name": "Wahgi",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Wahgic"
+        },
+        {
+          "name": "North Wahgi",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Chimbu-Wahgi",
+          "family3": "Wahgic"
+        },
+        {
+          "name": "Walak",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Dani",
+          "family3": "Central Dani"
+        },
+        {
+          "name": "Wamas",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Wambon",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Wanambre",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Wantoat",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Wanggom",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Wano",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Dani",
+          "family3": "-"
+        },
+        {
+          "name": "Usan",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Wolani",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Paniai Lakes",
+          "family3": "-"
+        },
+        {
+          "name": "Waskia",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Unclassified Madang"
+        },
+        {
+          "name": "Oweina",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Kainantu"
+        },
+        {
+          "name": "Dumpu",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Silimo",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Dani",
+          "family3": "Ngalik-Nduga"
+        },
+        {
+          "name": "Kesawai",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Kowaki",
+          "status": "severely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Sempan",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Asmat-Kamoro"
+        },
+        {
+          "name": "Silopi",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Ketengban",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Mek",
+          "family3": "Eastern Mek"
+        },
+        {
+          "name": "Pass Valley Yali",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Dani",
+          "family3": "Ngalik-Nduga"
+        },
+        {
+          "name": "Yaben",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Yabong",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Yaweyuha",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "Yoidik",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Yagomi",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Yagaria",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Kainantu-Goroka",
+          "family3": "Goroka"
+        },
+        {
+          "name": "North Awyu",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Yekora",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Greater Binanderean",
+          "family3": "Binanderean"
+        },
+        {
+          "name": "Angguruk Yali",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Dani",
+          "family3": "Ngalik-Nduga"
+        },
+        {
+          "name": "Yangulam",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Rai Coast"
+        },
+        {
+          "name": "Yonggom",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Asmat-Awyu-Ok",
+          "family3": "Awyu-Ok"
+        },
+        {
+          "name": "Yarawata",
+          "status": "definitely endangered",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Madang",
+          "family3": "Croisilles"
+        },
+        {
+          "name": "Yopno",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        },
+        {
+          "name": "Yau (Morobe Province)",
+          "status": "safe",
+          "family1": "Nuclear Trans New Guinea",
+          "family2": "Finisterre-Huon",
+          "family3": "Finisterre-Saruwaged"
+        }
+      ]
+    }
+  }
+}
